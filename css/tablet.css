@@ -1,0 +1,20 @@
+/*.nav {
+    height: 4em;
+}*/
+
+.nav a {
+    width: 20%;
+}
+
+.nav .mini_menu_icon {
+    width: 0%;
+}
+
+/*.nav .mini_menu_icon {
+    display: none;
+}*/
+
+.nav div {
+    max-height: 4em;
+    width: 80%;
+}

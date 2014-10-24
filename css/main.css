@@ -1,0 +1,274 @@
+body {
+    font-family:  open-sans, sans-serif;
+}
+
+h3 {
+    font-family:  bad-script, sans-serif;
+}
+   
+
+
+/* --- Nav --- */
+.nav {
+    position: fixed;
+    text-align: center;
+    background: #fff;
+    z-index: 100;
+    overflow: hidden;
+}
+
+.nav a {
+    line-height: 3em;
+    text-decoration: none;
+    color: black;
+}
+
+.nav .logo {
+    width: 20%;
+    height: 2em;
+    margin-top: .5em;
+    margin-bottom: .5em;
+}
+
+.nav .logo img {
+    height: 100%;
+}
+
+#mini_menu_input {
+    display: none;
+}
+
+
+
+
+
+/* --- Header --- */
+header {
+    background: url('../img/lotus.jpg') no-repeat fixed;
+    background-size: cover;
+    background-position: 50% 0;
+    height: 30em;
+    color: white;
+    padding: 3em 0 0 3em;
+    font-family:  bad-script, sans-serif;
+
+}
+
+header h1 {
+    font-size: 6em;
+    margin: 1em 0 0 0;
+}
+
+header h2 {
+    font-size: 1.7em;
+}
+
+
+
+
+/* --- Section --- */
+section {
+    padding: 0 0 3em 0;
+    font-size: 1.5em;
+    background-color: #fff;
+}
+
+.section_header {
+    text-align: center;
+    background-position: 50% 0;
+    height: 20em;
+    color: white;
+    margin: 0 0 3em 0;
+}
+
+.section_header h3 {
+    font-size: 3em;
+    line-height: 5em;
+}
+
+section p {
+    margin-left: 20%;
+    width: 60%;
+    margin-right: 20%;
+    text-align: center;
+}
+
+
+
+
+
+/* --- About --- */
+#about p {
+    margin-left: 10%;
+    width: 80%;
+    margin-right: 10%;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+/* --- Kametz Method --- */
+#kametz .section_header {
+    background: url('../img/stump.jpg') no-repeat fixed;
+    background-size: cover;
+}
+
+#kametz p {
+    margin-left: 10%;
+    width: 80%;
+    margin-right: 10%;
+    text-align: center;
+}
+
+
+
+
+
+
+
+/* --- Pricing --- */
+#pricing .section_header {
+    background: url('../img/insense.jpg') no-repeat fixed;
+    background-size: cover;
+}
+
+#pricing .price_table{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color: #eee;
+    border-radius: 0.5em;
+    box-shadow: 0em .3em .5em #aaa;
+    padding: 1em 0;
+}
+
+#pricing .price_value {
+    font-weight: bold;
+}
+
+#pricing .price_info {
+    width: 50%;
+}
+
+#pricing .price_info .block {
+    padding: 0 3em 1em 0;
+    font-size: .9em;
+}
+
+.tr {
+    width: 100%;
+    text-align: center;
+}
+
+.th {
+    width: 50%;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.td {
+    width: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* --- Therapists --- */
+#therapists .section_header {
+    background: url('../img/massage.jpg') no-repeat fixed;
+    background-size: cover;
+}
+
+.therapist {
+    width: 25%;
+}
+
+.therapist .img {
+    width: 6em;
+    margin: auto;
+    border: 1px solid black;
+    border-radius: 6em;
+    height: 6em;
+}
+
+.therapist .name {
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 1em 0;
+}
+
+.therapist .info {
+    text-align: center;
+    width: 75%;
+    margin: auto;
+    font-size: .7em;
+}
+
+
+
+
+
+
+
+/* --- Contact --- */
+#contact .section_header {
+    background: url('../img/table.jpg') no-repeat fixed;
+    background-size: cover;
+}
+
+#contact .info {
+    width: 24%;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+#contact .info a {
+    text-decoration: none;
+}
+
+#contact .map {
+    position: relative;
+    padding-bottom: 25%; 
+    height: 0;
+    overflow: hidden;
+    width: 64%;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+#contact .map iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100% !important;
+}
+
+
+
+
+
+
+
+/* --- Footer --- */
+footer {
+    text-align: center;
+    color: white;
+    background-color: #555;
+    height: 5em;
+    line-height: 5em;
+}
