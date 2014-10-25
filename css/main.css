@@ -98,6 +98,10 @@ section p {
 
 
 /* --- About --- */
+#about {
+    padding: 3em 0 3em 0;
+}
+
 #about p {
     margin-left: 10%;
     width: 80%;
