@@ -244,6 +244,10 @@ section p {
     text-decoration: none;
 }
 
+#contact .appointment {
+    margin: 2em 0 0 0;
+}
+
 #contact .map {
     position: relative;
     padding-bottom: 25%; 
