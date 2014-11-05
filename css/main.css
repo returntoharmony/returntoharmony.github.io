@@ -79,6 +79,7 @@ section {
     height: 20em;
     color: white;
     margin: 0 0 3em 0;
+    position: relative;
 }
 
 .section_header h3 {
@@ -151,10 +152,6 @@ section p {
     padding: 1em 0;
 }
 
-#pricing .price_value {
-    font-weight: bold;
-}
-
 #pricing .price_info {
     width: 50%;
 }
@@ -162,6 +159,14 @@ section p {
 #pricing .price_info .block {
     padding: 0 3em 1em 0;
     font-size: .9em;
+}
+
+#pricing .price_info .cancelation {
+    font-size: .6em;
+}
+
+#pricing .cancelation span {
+    font-weight: bold;
 }
 
 .tr {
@@ -239,6 +244,12 @@ section p {
     background-size: cover;
 }
 
+#contact .section_header span {
+    position: absolute;
+    bottom: 1em;
+    left: 1em;
+}
+
 #contact .info {
     width: 24%;
     margin-left: 3%;
@@ -247,10 +258,6 @@ section p {
 
 #contact .info a {
     text-decoration: none;
-}
-
-#contact .appointment {
-    margin: 2em 0 0 0;
 }
 
 #contact .map {
