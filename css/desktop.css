@@ -5,7 +5,7 @@ body {
 h3 {
     font-family:  bad-script, sans-serif;
 }
-   
+
 
 
 /* --- Nav --- */
@@ -21,6 +21,7 @@ h3 {
     line-height: 3em;
     text-decoration: none;
     color: black;
+    width: 20%;
 }
 
 .nav .logo {
@@ -34,7 +35,16 @@ h3 {
     height: 100%;
 }
 
-#mini_menu_input {
+.nav .mini_menu_icon {
+    width: 0%;
+}
+
+.nav div {
+    max-height: 4em;
+    width: 80%;
+}
+
+.mini_menu_input {
     display: none;
 }
 
@@ -262,7 +272,7 @@ section p {
 
 #contact .map {
     position: relative;
-    padding-bottom: 25%; 
+    padding-bottom: 25%;
     height: 0;
     overflow: hidden;
     width: 64%;
