@@ -15,6 +15,7 @@ h3 {
     background: #fff;
     z-index: 100;
     overflow: hidden;
+    height: 3em;
 }
 
 .nav a {
@@ -78,7 +79,7 @@ header h2 {
 
 /* --- Section --- */
 section {
-    padding: 0 0 3em 0;
+    padding: 2em 0 1em 0;
     font-size: 1.5em;
     background-color: #fff;
 }
