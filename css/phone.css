@@ -131,12 +131,13 @@ header {
     color: white;
     padding: 0 0 0 2em;
     font-family:  bad-script, sans-serif;
+    margin: 4em 0 0 0;
 
 }
 
 header h1 {
-    font-size: 3em;
-    margin: 2em 0 0 0;
+    font-size: 2.5em;
+    margin: 1.5em 0 0 0;
 }
 
 header h2 {
