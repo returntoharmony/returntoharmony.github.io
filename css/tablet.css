@@ -52,8 +52,9 @@ h3 {
 
 /* --- Header --- */
 header {
-    background: url('../img/lotus.jpg') no-repeat fixed;
+    background: url('../img/lotus.jpg') no-repeat center center fixed;
     background-size: cover;
+    background-attachment: scroll;
     background-position: 50% 0;
     height: 20em;
     color: white;
@@ -125,8 +126,9 @@ section p {
 
 /* --- Kametz Method --- */
 #kametz .section_header {
-    background: url('../img/stump.jpg') no-repeat fixed;
+    background: url('../img/stump.jpg') no-repeat center center fixed;
     background-size: cover;
+    background-attachment: scroll;
 }
 
 #kametz p {
@@ -143,8 +145,9 @@ section p {
 
 /* --- Pricing --- */
 #pricing .section_header {
-    background: url('../img/insense.jpg') no-repeat fixed;
+    background: url('../img/insense.jpg') no-repeat center center fixed;
     background-size: cover;
+    background-attachment: scroll;
 }
 
 #pricing .price_table{
@@ -196,8 +199,9 @@ section p {
 
 /* --- Therapists --- */
 #therapists .section_header {
-    background: url('../img/massage.jpg') no-repeat fixed;
+    background: url('../img/massage.jpg') no-repeat center center fixed;
     background-size: cover;
+    background-attachment: scroll;
 }
 
 .therapist {
@@ -239,8 +243,9 @@ section p {
 
 /* --- Contact --- */
 #contact .section_header {
-    background: url('../img/table.jpg') no-repeat fixed;
+    background: url('../img/table.jpg') no-repeat center center fixed;
     background-size: cover;
+    background-attachment: scroll;
 }
 
 #contact .section_header span {
