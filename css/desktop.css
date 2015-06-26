@@ -271,6 +271,11 @@ section p {
     text-decoration: none;
 }
 
+#contact .info .appt {
+    font-size: .5em;
+    margin: 2em 0 0 0;
+}
+
 #contact .map {
     position: relative;
     padding-bottom: 25%;
