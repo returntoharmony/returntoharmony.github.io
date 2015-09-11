@@ -43,8 +43,6 @@ h3 {
 .nav div {
     max-height: 0em;
     overflow: hidden;
-    -moz-transition:       all 0.4s;
-    -o-transition:         all 0.4s;
     -webkit-transition:    all 0.4s;
     transition:            all 0.4s;
 }
@@ -73,8 +71,6 @@ h3 {
 .mini_menu_icon span:after {
   width: 100%;
   height: .2em;
-  -moz-transition:       all 0.4s;
-  -o-transition:         all 0.4s;
   -webkit-transition:    all 0.4s;
   transition:            all 0.4s;
   -webkit-transform: translate3d(0,0,0);
@@ -95,17 +91,13 @@ h3 {
 .mini_menu_input:checked ~ .mini_menu_icon span{background: transparent;}
 
 .mini_menu_input:checked ~ .mini_menu_icon span:before {
-  -moz-transform: rotate(45deg) translate(.5em, .4em);
   -ms-transform: rotate(45deg) translate(.5em, .4em);
-  -o-transform: rotate(45deg) translate(.5em, .4em);
   -webkit-transform: rotate(45deg) translate(.5em, .4em);
   transform: rotate(45deg) translate(.5em, .4em);
 }
 
 .mini_menu_input:checked ~ .mini_menu_icon span:after {
-  -moz-transform: rotate(-45deg) translate(.45em, -.35em);
   -ms-transform: rotate(-45deg) translate(.45em, -.35em);
-  -o-transform: rotate(-45deg) translate(.45em, -.35em);
   -webkit-transform: rotate(-45deg) translate(.45em, -.35em);
   transform: rotate(-45deg) translate(.45em, -.35em);
 }
@@ -156,17 +148,20 @@ section {
 }
 
 .section_header {
-    text-align: center;
     background-position: 50% 0;
     height: 10em;
     color: white;
     margin: 0 0 3em 0;
     position: relative;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
 }
 
 .section_header h3 {
     font-size: 2em;
-    line-height: 3em;
+    margin: auto;
 }
 
 section p {
@@ -272,10 +267,24 @@ section p {
 
 
 /* --- Therapists --- */
+#therapists {
+    clear: both;
+}
+
 #therapists .section_header {
     background: url('../img/massage.jpg') no-repeat center center fixed;
     background-size: cover;
     background-attachment: scroll;
+}
+
+.therapist_group {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
 }
 
 .therapist {
